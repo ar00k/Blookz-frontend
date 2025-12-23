@@ -12,17 +12,7 @@ export default createVuetify({
   icons: {
     defaultSet: 'mdi',
     sets: {
-      mdi: {
-        component: 'VIcon',
-      },
-    },
-    aliases: {
-      // Common icons you might use
-      menu: mdiIcons.mdiMenu,
-      close: mdiIcons.mdiClose,
-      home: mdiIcons.mdiHome,
-      account: mdiIcons.mdiAccount,
-      // Add more as needed
+      mdi,
     },
   },
   theme: {
